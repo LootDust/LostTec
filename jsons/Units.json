@@ -1,0 +1,42 @@
+[
+  	{
+		"name": "Scout-Pro",
+		"unitType": "Scout",
+		"movement": 256,
+		"strength": 1024,
+		"cost": 25,
+		"requiredResource": "Authority",
+		"uniques": ["Ignores terrain cost",
+		"Never appears as a Barbarian unit",
+		"Can move after attacking",
+		"Can move immediately once bought",
+		"Can see over obstacles",
+		"Can carry [2] [Far-Ancient Nuke] units",
+		"Defense bonus when embarked",
+		"[256] additional attacks per turn",
+		"Eliminates combat penalty for attacking over a river",
+		"Eliminates combat penalty for attacking across a coast",
+		"<in cities with a [Lost Tech]> <in cities without a [Tech Basis]> Only available"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+		  {"text": "超级斥候，一击灭城"}
+		  ]
+	},
+	{
+	  "name": "Far-Ancient Nuke",
+	  "unitType": "Missile",
+	  "movement": 64,
+	  "strength": "1",
+	  "rangedStrength": 32767,
+	  "cost": 0,
+	  "hurryCostModifier": -1,
+	  "range": 16,
+	  "uniques": ["Can move immediately once bought",
+	  "<in cities with a [Lost Tech]> <in cities without a [Tech Basis]> Only available",
+	  "Blast radius [2]"],
+	  "attackSound": "nuke",
+	  "civilopediaText":[
+	    {"text": "远古核弹，真的能在远古时代就造出来"}
+	    ]
+	}
+]

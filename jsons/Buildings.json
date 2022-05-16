@@ -1,0 +1,38 @@
+[
+  {
+    "name" : "Lost Tech",
+    "cost": 1,
+    "hurrryCostModifier": 0,
+    "uniques": ["Can only be built [in capital]","<if [Tech Basis] is constructed> Only available",
+    "Free Technology",
+    "<in cities without a [Tech Basis]> <in cities with a [Lost Tech]> [+32767 Food, +32767 Production, +32767 Science, +256 Gold, +256 Happiness, +1024 Culture, +1024 Faith]"],
+    "maintenance": 0,
+    "civilopediaText": [
+      {"text": "当Tech Basis建成后拆除以获取高额产出"}
+      ]
+  },
+  {
+    "name": "Tech Basis",
+    "cost": 1,
+    "hurryCostModifier": 0,
+    "uniques": ["Can only be built [in capital]"],
+    "maintenance": 0,
+    "civilopediaText": [
+      {"text": "建成后拆除Tech Basis，允许建造地块改良设施Authority Stoler"}
+      ]
+  },
+  {
+    "name": "Authority Maker",
+    "cost": 1,
+    "hurryCostModifier": 0,
+    "uniques": ["Can only be built [in capital]", "<in cities with a [Lost Tech]> <in cities without a [Tech Basis]> Only available", "Provides [64] [Authority]"]
+  },
+  {
+    "name": "Hyperspace Gateway",
+    "cost": 1,
+    "hurryCostModifier": 0,
+    "uniques": ["Consumes [1] [Authority]",
+    "Military Units gifted from City-States start with [32767] XP", "[100000]% Production when constructing [All] wonders [in this city]", "[100000]% Production when constructing [All] buildings [in this city]", "[100000]% Production when constructing [All] units [in this city]", "Reveals the entire map"
+    ]
+  }
+]

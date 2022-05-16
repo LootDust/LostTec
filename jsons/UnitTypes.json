@@ -1,0 +1,11 @@
+[
+    {
+		"name": "Scout",
+		"movementType": "Land"
+	},
+	{
+	    "name": "Missile",
+	    "movementType": "Air",
+	    "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+	}
+]
