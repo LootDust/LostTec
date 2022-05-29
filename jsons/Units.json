@@ -6,7 +6,7 @@
 		"strength": 1024,
 		"cost": 25,
 		"requiredResource": "Authority",
-		"uniques": ["Ignores terrain cost",
+		"uniques": ["[12] Sight", "Ignores terrain cost",
 		"Never appears as a Barbarian unit",
 		"Can move after attacking",
 		"Can move immediately once bought",
