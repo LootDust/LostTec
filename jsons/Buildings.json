@@ -4,7 +4,7 @@
     "cost": 1,
     "hurrryCostModifier": 0,
     "uniques": ["Can only be built [in capital]","<if [Tech Basis] is constructed> Only available",
-    "Free Technology",
+    "Free Technology", "Destroyed when the city is captured",
     "<in cities without a [Tech Basis]> <in cities with a [Lost Tech]> [+1073741824 Food, +32767 Production, +32767 Science, +512 Gold, +256 Happiness, +1024 Culture, +1024 Faith]"],
     "maintenance": 0,
     "civilopediaText": [
